@@ -1,0 +1,11 @@
+EXTRA_DIST = autogen.sh
+
+SUBDIRS = src data po
+
+ACLOCAL_AMFLAGS = -I m4
+
+DISTCHECK_CONFIGURE_FLAGS=
+
+CLEANFILES = *~
+
+
