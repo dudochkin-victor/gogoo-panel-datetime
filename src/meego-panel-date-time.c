@@ -19,9 +19,9 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#ifdef HAVE_CONFIG_H
+/*#ifdef HAVE_CONFIG_H
 #include "config.h"
-#endif
+#endif*/
 
 #include <locale.h>
 #include <string.h>
@@ -45,7 +45,9 @@
 #define LAUNCHER_WIDTH  235
 #define LAUNCHER_HEIGHT 64
 
+/*
 #include <config.h>
+*/
 
 static void
 _client_set_size_cb (MplPanelClient *client,

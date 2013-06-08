@@ -22,7 +22,9 @@
 #include <libjana-ecal/jana-ecal.h>
 #include <libjana/jana.h>
 
+/*
 #include <config.h>
+*/
 #include <gtk/gtk.h>
 #include <gio/gdesktopappinfo.h>
 #include <glib/gi18n.h>
