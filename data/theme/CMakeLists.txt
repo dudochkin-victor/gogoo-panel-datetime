@@ -35,7 +35,7 @@ SET(THEME_SRCS
 	event-task-tile-bg.png
     )
 
-INSTALL(FILES ${THEME_SRCS} DESTINATION ${PKG_DATADIR}/gogoo-panel-pasteboard/theme)
+INSTALL(FILES ${THEME_SRCS} DESTINATION ${PKG_DATADIR}/gogoo-panel-datetime/theme)
 
 
 
